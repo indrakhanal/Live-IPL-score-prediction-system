@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static%}
+     <title>{%block 'title'%}{%endblock%}</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+     <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+     <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+     <link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}">
+     <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+<!--     <link rel="stylesheet" href="{% static 'css/tooplate-style.css' %}">-->
+
+</head>
+   <header>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-4 col-sm-5">
+                         <p>Welcome to EveryThing Cricket </p>
+                    </div>
+
+                    <div class="col-md-8 col-sm-7 text-align-right">
+                         <span class="phone-icon"><i class="fa fa-phone"></i> +977-9846718211</span>
+<!--                         <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 6:00 AM - 10:00 PM (Mon-Fri)</span>-->
+                         <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="#">indrakhanal@kct.edu.np</a></span>
+                    </div>
+               </div>
+          </div>
+     </header>
+<section class="navbar navbar-default navbar-static-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="#" class="navbar-brand"><i class="fa fa-T-square"></i>EveryThing Cricket</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="#" class="smoothScroll">Home</a></li>
+                         <li><a href="#" class="smoothScroll">EPL</a></li>
+                         <li><a href="#" class="smoothScroll">PPL</a></li>
+                         <li><a href="#" class="smoothScroll">Cricket News</a></li>
+                         <li><a href="#" class="smoothScroll">Nepal Cricket Team</a></li>
+                        <li><a href="#" class="smoothScroll">About Us</a></li>
+
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+<body>
+
+
+
+
+        {%block 'content'%}{%endblock%}
+
+     <!-- SCRIPTS -->
+     <script src="{% static 'js/jquery.js' %}"></script>
+     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+     <script src="{% static 'js/jquery.sticky.js' %}"></script>
+     <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+<!--     <script src="{% static 'js/wow.min.js' %}"></script>-->
+     <script src="{% static 'js/smoothscroll.js' %}"></script>
+     <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+     <script src="{% static 'js/custom.js' %}"></script>
+</body>
+</html>
